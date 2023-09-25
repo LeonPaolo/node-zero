@@ -1,13 +1,3 @@
-// import { createServer } from 'node:http'
-
-// const server = createServer ((request, response) => {
-//     response.write('Hello World')
-
-//     return response.end()
-// })
-
-// server.listen(3333)
-
 import { fastify } from "fastify";
 // import {DatabaseMenory} from './database-memory.js'
 import { DatabasePostgres } from "./database-postgres.js";
@@ -17,7 +7,7 @@ const server = fastify()
 // const database = new DatabaseMenory()
 const database = new DatabasePostgres()
 
- server.post('/videos', async (request, reply) => {
+server.post('/videos', async (request, reply) => {
     const { title, description, duration } = request.body
 
     await database.create({
