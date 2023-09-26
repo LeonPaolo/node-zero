@@ -1,5 +1,5 @@
 ###  create
-POST https://api-node-edzg.onrender.com/videos
+POST https://api-node-oeg1.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -8,11 +8,11 @@ Content-Type: application/json
     "duration": 180
 }
 ### pesquisa
-GET https://api-node-edzg.onrender.com?search=node
+GET https://api-node-oeg1.onrender.com?search=node
 ### lista de videos
-GET https://api-node-edzg.onrender.com
+GET https://api-node-oeg1.onrender.com
 ### update
-PUT https://api-node-edzg.onrender.com/3c5129b5-2081-4e0b-af78-d1e206200dfb
+PUT https://api-node-oeg1.onrender.com/3c5129b5-2081-4e0b-af78-d1e206200dfb
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
     "duration": 180
 }
 ### delete
-DELETE https://api-node-edzg.onrender.com/5f205b40-4fea-404a-95f0-ea678f4e7911
+DELETE https://api-node-oeg1.onrender.com/5f205b40-4fea-404a-95f0-ea678f4e7911
